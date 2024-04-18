@@ -40,19 +40,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
       >
-        I am a software engineer working on web applications and mobile
-        applications. I have been developing professionally for 7 years but
-        tinkering since a kid. I started in tech with internships, freelance
-        services and part time positions during college. I have a bit off a
-        diverse job history. I have been working on IOT’s, Mobile App
-        Development, System Engineer, graphic/web design, web app development
-        and sysadmin/DevOps. I can help everywhere in the stack and I love
-        wearing multiple hats to an extent. Although, I do think my strongest
-        skills are in software engineering. Most of my positions utilized
-        agile-like development processes using Jira. A day in my life may
-        consist of: prepping web art, fixing some front-end bugs, adding an API
-        endpoint, dockerizing an application, database design, configuring a
-        library, setting up a build or deployment plan.
+        I am Syed Assad and I am a experienced iOS & Flutter Developer with over 6 years of hands-on expertise in
+        designing, developing, and maintaining mobile applications. Proficient in both native iOS development using Swift/
+        Objective-C and cross-platform development with Flutter. Adept at collaborating with interdisciplinary teams to deliver
+        high-quality software solutions that meet client requirements and exceed expectations. Skilled in UI/UX design
+        principles, API integration, performance optimization, and troubleshooting/debugging. Strong communication skills, with
+        a proven track record of effectively translating complex technical concepts to non-technical stakeholders. Passionate
+        about staying updated with the latest technologies and continuously improving skills to deliver innovative solutions in the
+        ever-evolving mobile development landscape.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
