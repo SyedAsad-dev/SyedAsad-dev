@@ -1,5 +1,5 @@
-<h1 align="center">Hi there, I'm Rehan 👋</h1>
-<h3 align="center">A passionate Software Engineer from Dubai</h3>
+<h1 align="center">Hi there, I'm Syed 👋</h1>
+<h3 align="center">A passionate iOS Engineer from Dubai</h3>
 
 <p align="center">
   <a href="https://github.com/mr-muhammad-rehan">
