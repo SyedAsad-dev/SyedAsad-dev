@@ -1,18 +1,18 @@
-<h1 align="center">Hi there, I'm Rehan 👋</h1>
-<h3 align="center">A passionate Software Engineer from Dubai</h3>
+<h1 align="center">Hi there, I'm Syed 👋</h1>
+<h3 align="center">A passionate iOS Engineer from Dubai</h3>
 
 <p align="center">
-  <a href="https://github.com/mr-muhammad-rehan">
-    <img src="https://komarev.com/ghpvc/?username=mr-muhammad-rehan&label=Profile%20views&color=0e75b6&style=flat" alt="mr-muhammad-rehan" />
+  <a href="https://github.com/SyedAsad-dev">
+    <img src="https://komarev.com/ghpvc/?username=mr-muhammad-rehan&label=Profile%20views&color=0e75b6&style=flat" alt="SyedAsad-dev" />
   </a>
   <a href="https://github.com/mr-muhammad-rehan?tab=followers">
-    <img src="https://img.shields.io/github/followers/mr-muhammad-rehan?label=Followers&style=social" alt="mr-muhammad-rehan Followers" />
+    <img src="https://img.shields.io/github/followers/mr-muhammad-rehan?label=Followers&style=social" alt="SyedAsad-dev Followers" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mr-muhammad-rehan&show_icons=true&locale=en" alt="mr-muhammad-rehan stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mr-muhammad-rehan&" alt="mr-muhammad-rehan streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=SyedAsad-dev&show_icons=true&locale=en" alt="SyedAsad-dev stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SyedAsad-dev&" alt="mr-muhammad-rehan streak" />
 </p>
 
 <p align="center">
@@ -31,7 +31,7 @@
 
 - 💬 Ask me about **Anything Related To Software Development**
 
-- 📫 How to reach me **mrmuhammadrehan65@gmail.com**
+- 📫 How to reach me **syedasadali786786@gmail.com**
 
 - ⚡ Fun fact **Anything runs on electricity get me curious**
 
@@ -60,21 +60,21 @@
 ## 📊 My GitHub Stats
 
 <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mr-muhammad-rehan&langs_count=8&layout=compact" alt="mr-muhammad-rehan Languages" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SyedAsad-dev&langs_count=8&layout=compact" alt="SyedAsad-dev Languages" />
 </p>
 
 <p align="center">
-    <!-- <img src="https://activity-graph.herokuapp.com/graph?username=mr-muhammad-rehan&theme=minimal" /> -->
+    <!-- <img src="https://activity-graph.herokuapp.com/graph?username=SyedAsad-dev&theme=minimal" /> -->
 </p>
 
 ## Connect with me:
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/mmd-rehan/" target="_new"> 
+  <a href="https://www.linkedin.com/in/syedasadalirizvi/" target="_new"> 
     <img alt="Static Badge" src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/> 
   </a>
   
-  <a href="https://mr-muhammad-rehan.github.io/mr-muhammad-rehan/" target="_new"> 
+  <a href="https://SyedAsad-dev.github.io/SyedAsad-dev/" target="_new"> 
     <img alt="Static Badge" src="https://img.shields.io/badge/my_personal_web_site-1DA1F2?style=for-the-badge&logo=ko-fi&logoColor=white"/>
   </a>
 
