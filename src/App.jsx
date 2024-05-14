@@ -41,7 +41,7 @@ const App = () => {
         <div className="bg-projects bg-cover bg-center bg-no-repeat pb-10">
           <Projects />
         </div>
-        <div className="bg-tech bg-cover bg-center bg-no-repeat pb-10">
+        <div className="bg-contact bg-cover bg-center bg-no-repeat pb-10">
           <Contact />
         </div>
       </div>
