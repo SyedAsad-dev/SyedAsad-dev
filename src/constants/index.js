@@ -53,6 +53,7 @@ import {
   pangea,
   taifalemarat,
   drClinic,
+  worldVirtualHospital,
 } from '../assets';
 
 export const navLinks = [
@@ -257,18 +258,18 @@ const projects = [
     name: 'The Meets',
     description: ``,
     tags: [
-      {
-        name: 'angular',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'nodejs',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'springboot',
-        color: 'pink-text-gradient',
-      },
+      // {
+      //   name: 'angular',
+      //   color: 'blue-text-gradient',
+      // },
+      // {
+      //   name: 'nodejs',
+      //   color: 'green-text-gradient',
+      // },
+      // {
+      //   name: 'springboot',
+      //   color: 'pink-text-gradient',
+      // },
     ],
     image: themeets,
     demo: 'https://apps.apple.com/ae/app/the-meets/id1615749988',
@@ -438,7 +439,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: drClinica,
+    image: worldVirtualHospital,
     demo: 'https://play.google.com/store/apps/details?id=com.wvh.wvh',
   },
 

@@ -82,6 +82,8 @@ import santrapro from './projects/santrapro.webp';
 import pangea from './projects/pangea.webp';
 import taifalemarat from './projects/taifalemarat.webp';
 import drClinic from './projects/drClinic.webp';
+import worldVirtualHospital from './projects/worldVirtualHospital.webp';
+
 
 
 // import leaderboard from './projects/leaderboard.png';
@@ -166,4 +168,5 @@ export {
   pangea,
   taifalemarat,
   drClinic,
+  worldVirtualHospital,
 };
