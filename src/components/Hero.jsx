@@ -42,12 +42,12 @@ const Hero = () => {
                 className="sm:text-battleGray sm:text-[90px] 
                 text-eerieBlack text-[50px] font-mova
                 font-extrabold uppercase">
-                Syed
+                Syed Asad
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
               I Help Business and Individuals. <br className="sm:block hidden" />
-              Digitizing ideas, Automating their Business and managing on fingertips.
+              Adept across industries, delivering innovative solutions with expertise and collaborative flair.
             </p>
           </div>
           <div
