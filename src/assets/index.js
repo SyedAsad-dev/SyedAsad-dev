@@ -45,6 +45,17 @@ import aws from './tech/aws.png';
 import nextjs from './tech/nextjs.png';
 import reactNative from './tech/reactNative.png';
 
+import dart from './tech/dart.png';
+import git2 from './tech/git2.png';
+import swiftUI from './tech/swiftui.png';
+import xcode from './tech/xcode.png';
+import firebase from './tech/firebase.png';
+import uikit from './tech/uikit.png';
+import swift from './tech/swift.png';
+import appStore from './tech/appStore.png';
+import ios from './tech/ios.png';
+
+
 import coverhunt from './company/coverhunt.png';
 import amadeus from './company/amadeus.png';
 import dcc from './company/dcc.png';
@@ -52,6 +63,14 @@ import winsoft from './company/winsoft.png';
 import kelhel from './company/kelhel.png';
 import anf from './company/anf.png';
 import microverse from './company/microverse.png';
+
+import brainplow from './company/brainplow.jpeg';
+import drClinica from './company/drClinica.jpeg';
+import schoolhack from './company/schoolhack.jpeg';
+import taif from './company/taif.jpeg';
+import shisheo from './company/shisheo.jpeg';
+import venocare from './company/venocare.jpeg';
+import santra from './company/santra.jpeg';
 
 import etihad from './projects/komikult.png';
 // import leaderboard from './projects/leaderboard.png';
@@ -111,4 +130,20 @@ export {
   kelhel,
   anf,
   microverse,
+  dart,
+  git2,
+  swiftUI,
+  xcode,
+  firebase,
+  uikit,
+  swift,
+  appStore,
+  ios,
+  brainplow,
+  drClinica,
+  schoolhack,
+  taif,
+  shisheo,
+  venocare,
+  santra
 };

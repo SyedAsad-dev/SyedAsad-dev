@@ -18,7 +18,16 @@ import {
   sql,
   docker,
   postgresql,
+  uikit,
+  swift,
   flutter,
+  dart,
+  git2,
+  swiftUI,
+  appStore,
+  ios,
+  xcode,
+  firebase,
   graphql,
   etihad,
   coverhunt,
@@ -28,6 +37,13 @@ import {
   kelhel,
   microverse,
   anf,
+  brainplow,
+  drClinica,
+  shisheo,
+  santra,
+  schoolhack,
+  taif,
+  venocare
 } from '../assets';
 
 export const navLinks = [
@@ -49,66 +65,86 @@ export const navLinks = [
   },
 ];
 
+
 const services = [
+
+  // {
+  //   title: 'Backend Developer',
+  //   icon: backend,
+  // },
   {
-    title: 'Frontend Developer',
-    icon: frontend,
+    title: 'iOS App Developer',
+    icon: xcode,
   },
+
   {
-    title: 'Backend Developer',
-    icon: backend,
+    title: 'Flutter Developer',
+    icon: dart,
   },
-  {
-    title: 'Mobile App Developer',
-    icon: booking,
-  },
-  {
-    title: 'Software Prototyping',
-    icon: prototyping,
-  },
+  // {
+  //   title: 'Software Prototyping',
+  //   icon: prototyping,
+  // },
 ];
 
+
 const technologies = [
-  {
-    name: 'HTML 5',
-    icon: html,
+    {
+    name: 'IOS',
+    icon: ios,
   },
   {
-    name: 'CSS 3',
-    icon: css,
+    name: 'UIKit',
+    icon: uikit,
   },
   {
-    name: 'JavaScript',
-    icon: javascript,
+    name: 'Swift',
+    icon: swift,
   },
   {
-    name: 'TypeScript',
-    icon: typescript,
+    name: 'Xcode',
+    icon: xcode,
   },
   {
-    name: 'React JS',
-    icon: reactjs,
+    name: 'SwiftUI',
+    icon: swiftUI,
   },
   {
-    name: 'Next JS',
-    icon: nextjs,
+    name: 'App Store',
+    icon: appStore,
   },
   {
-    name: 'reactNative',
-    icon: reactNative,
+    name: 'GitHUB',
+    icon: git2,
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
+    name: 'Dart',
+    icon: dart,
   },
   {
-    name: 'Tailwind CSS',
-    icon: tailwind,
+    name: 'Firebase',
+    icon: firebase,
   },
-  {
-    name: 'Node JS',
-    icon: nodejs,
-  },
+  // {
+  //   name: 'Next JS',
+  //   icon: nextjs,
+  // },
+  // {
+  //   name: 'reactNative',
+  //   icon: reactNative,
+  // },
+  // {
+  //   name: 'Redux Toolkit',
+  //   icon: redux,
+  // },
+  // {
+  //   name: 'Tailwind CSS',
+  //   icon: tailwind,
+  // },
+  // {
+  //   name: 'Node JS',
+  //   icon: nodejs,
+  // },
   {
     name: 'Flutter',
     icon: flutter,
@@ -117,56 +153,78 @@ const technologies = [
     name: 'graphql',
     icon: graphql,
   },
-  {
-    name: 'postgresql',
-    icon: postgresql,
-  },
+  // {
+  //   name: 'postgresql',
+  //   icon: postgresql,
+  // },
   {
     name: 'git',
     icon: git,
   },
-  {
-    name: 'sql',
-    icon: sql,
-  },
-  {
-    name: 'docker',
-    icon: docker,
-  },
+  // {
+  //   name: 'sql',
+  //   icon: sql,
+  // },
+  // {
+  //   name: 'docker',
+  //   icon: docker,
+  // },
   {
     name: 'aws',
     icon: aws,
   },
 ];
 
+brainplow,
+drClinica,
+shisheo,
+santra,
+schoolhack,
+taif,
+venocare
+
 const experiences = [
   {
-    title: 'Sr Software Engineer',
-    company_name: 'Amadeus',
-    icon: amadeus,
+    title: 'Lead iOS Engineer',
+    company_name: 'VenoCare',
+    icon: venocare,
     iconBg: '#333333',
-    date: 'Oct 2021 - Present',
+    date: 'May 2022 - Present',
   },
   {
-    title: 'Full Stack Develope',
-    company_name: 'Winsoft Solutions',
-    icon: winsoft,
+    title: 'Project Lead iOS Engineer (Contract)',
+    company_name: 'Santra',
+    icon: santra,
     iconBg: '#333333',
-    date: 'Aug 2019 - Sep 2021',
+    date: 'Oct 2022 - June 2023',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'NAAT Services',
-    icon: kelhel,
+    title: 'Project Lead iOS Engineer (Contract)',
+    company_name: 'School Hack',
+    icon: schoolhack,
     iconBg: '#333333',
-    date: 'Nov 2017 - July 2019',
+    date: 'Dec 2022 - March 2023',
   },
   {
-    title: 'Jr Software Develope',
-    company_name: 'AnF Solutions',
-    icon: anf,
+    title: 'Senior iOS Engineer',
+    company_name: 'Shisheo-Meets',
+    icon: shisheo,
     iconBg: '#333333',
-    date: 'May 2015 - July 2017',
+    date: 'Jan 2021 - May 2022',
+  },
+  {
+    title: 'iOS Engineer',
+    company_name: 'Taif al Emarat',
+    icon: taif,
+    iconBg: '#333333',
+    date: 'Jan 2020 - Jan 2021',
+  },
+  {
+    title: 'iOS Engineer',
+    company_name: 'brainplow',
+    icon: brainplow,
+    iconBg: '#333333',
+    date: 'May 2017 - Dec 2019',
   },
 ];
 
