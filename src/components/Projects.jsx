@@ -28,7 +28,7 @@ const ProjectCard = ({
     >
       <div
         className="absolute top-0 left-0 z-10 bg-jetLight 
-      h-full w-full opacity-[0.5] rounded-[24px]"
+      h-full w-full opacity-[0.0] rounded-[24px]"
       ></div>
 
       <img
