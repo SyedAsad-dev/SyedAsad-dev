@@ -73,6 +73,8 @@ import venocare from './company/venocare.jpeg';
 import santra from './company/santra.jpeg';
 
 import etihad from './projects/komikult.png';
+import schoolhack1 from './projects/schoolHack1.jpeg';
+import commit2Sit from './projects/commit2Sit.png';
 // import leaderboard from './projects/leaderboard.png';
 // import math from './projects/math-magicians.png';
 // import movie from './projects/movie-metro.png';
@@ -145,5 +147,7 @@ export {
   taif,
   shisheo,
   venocare,
-  santra
+  santra,
+  commit2Sit,
+  schoolhack1
 };
