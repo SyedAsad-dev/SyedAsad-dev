@@ -74,7 +74,16 @@ import santra from './company/santra.jpeg';
 
 import etihad from './projects/komikult.png';
 import schoolhack1 from './projects/schoolHack1.jpeg';
-import commit2Sit from './projects/commit2Sit.png';
+import commit2Sit from './projects/commit2Sit.webp';
+import chargefuze from './projects/chargefuze.webp';
+import themeets from './projects/themeets.webp';
+import santraSallar from './projects/santraSallar.webp';
+import santrapro from './projects/santrapro.webp';
+import pangea from './projects/pangea.webp';
+import taifalemarat from './projects/taifalemarat.webp';
+import drClinic from './projects/drClinic.webp';
+
+
 // import leaderboard from './projects/leaderboard.png';
 // import math from './projects/math-magicians.png';
 // import movie from './projects/movie-metro.png';
@@ -149,5 +158,12 @@ export {
   venocare,
   santra,
   commit2Sit,
-  schoolhack1
+  schoolhack1,
+  chargefuze,
+  themeets,
+  santraSallar,
+  santrapro,
+  pangea,
+  taifalemarat,
+  drClinic,
 };

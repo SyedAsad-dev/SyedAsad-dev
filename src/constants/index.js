@@ -46,6 +46,13 @@ import {
   venocare,
   commit2Sit,
   schoolhack1,
+  chargefuze,
+  themeets,
+  santraSallar,
+  santrapro,
+  pangea,
+  taifalemarat,
+  drClinic,
 } from '../assets';
 
 export const navLinks = [
@@ -263,7 +270,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: shisheo,
+    image: themeets,
     demo: 'https://apps.apple.com/ae/app/the-meets/id1615749988',
   },
   {
@@ -284,7 +291,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: santra,
+    image: santrapro,
     demo: 'https://apps.apple.com/ae/app/santra-%D8%B3%D9%86%D8%B7%D8%B1%D9%87/id1540775004?platform=iphone',
   },
   {
@@ -305,7 +312,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: santra,
+    image: santraSallar,
     demo: 'https://apps.apple.com/sa/app/santra-sellers/id1533685850?platform=iphone',
   },
   {
@@ -326,7 +333,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: drClinica,
+    image: drClinic,
     demo: 'https://apps.apple.com/ae/app/dr-clinica/id6468948448?platform=iphone',
   },
   {
@@ -368,7 +375,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: drClinica,
+    image: chargefuze,
     demo: 'https://apps.apple.com/us/app/chargefuze/id1475987143',
   },
   {
@@ -389,7 +396,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: drClinica,
+    image: pangea,
     demo: 'https://apps.apple.com/ae/app/pangea-provider/id1577011875',
   },
   {
@@ -410,7 +417,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: drClinica,
+    image: taifalemarat,
     demo: 'https://apps.apple.com/ae/app/taif-al-emarat/id1524622310',
   },
   {
