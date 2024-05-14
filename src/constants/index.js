@@ -229,18 +229,18 @@ const projects = [
     name: 'School Hack',
     description: ``,
     tags: [
-      {
-        name: 'angular',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'nodejs',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'springboot',
-        color: 'pink-text-gradient',
-      },
+      // {
+      //   name: 'angular',
+      //   color: 'blue-text-gradient',
+      // },
+      // {
+      //   name: 'nodejs',
+      //   color: 'green-text-gradient',
+      // },
+      // {
+      //   name: 'springboot',
+      //   color: 'pink-text-gradient',
+      // },
     ],
     image: schoolhack1,
     demo: 'https://apps.apple.com/us/app/school-hack/id1667172863',
