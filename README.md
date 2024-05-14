@@ -3,16 +3,16 @@
 
 <p align="center">
   <a href="https://github.com/SyedAsad-dev">
-    <img src="https://komarev.com/ghpvc/?username=mr-muhammad-rehan&label=Profile%20views&color=0e75b6&style=flat" alt="SyedAsad-dev" />
+    <img src="https://komarev.com/ghpvc/?username=SyedAsad-dev&label=Profile%20views&color=0e75b6&style=flat" alt="SyedAsad-dev" />
   </a>
-  <a href="https://github.com/mr-muhammad-rehan?tab=followers">
-    <img src="https://img.shields.io/github/followers/mr-muhammad-rehan?label=Followers&style=social" alt="SyedAsad-dev Followers" />
+  <a href="https://github.com/SyedAsad-dev?tab=followers">
+    <img src="https://img.shields.io/github/followers/SyedAsad-dev?label=Followers&style=social" alt="SyedAsad-dev Followers" />
   </a>
 </p>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=SyedAsad-dev&show_icons=true&locale=en" alt="SyedAsad-dev stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SyedAsad-dev&" alt="mr-muhammad-rehan streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SyedAsad-dev&" alt="SyedAsad-dev streak" />
 </p>
 
 <p align="center">
@@ -21,41 +21,15 @@
 
 ## 🙋‍♂️ About Me
 
-- 🔭 I’m currently working on **E-commerce Applications**
-
-- 🌱 I’m currently learning **LLM's, NLP, Generative AI's**
-
 <!-- - 👯 I’m looking to collaborate on **[Project Name/Type]** -->
 
 - 🤝 I’m looking for help with **[Learning AI]**
 
-- 💬 Ask me about **Anything Related To Software Development**
+- 💬 Ask me about **Anything Related To iOS Development**
 
 - 📫 How to reach me **syedasadali786786@gmail.com**
 
 - ⚡ Fun fact **Anything runs on electricity get me curious**
-
-## 🚀 Languages and Tools:
-
-<p align="center">
-  <img alt="Static Badge" src="https://img.shields.io/badge/JavaScript-yellow"/>
-  <img alt="Static Badge" src="https://img.shields.io/badge/TypeScript-blue"/>
-  <img alt="Static Badge" src="https://img.shields.io/badge/CShrp-blue"/>
-  <img alt="Static Badge" src="https://img.shields.io/badge/Java-white"/>
-  <img alt="Static Badge" src="https://img.shields.io/badge/Node.Js-green"/>
-  <img alt="Static Badge" src="https://img.shields.io/badge/SQL-blue"/>
-  <img alt="Static Badge" src="https://img.shields.io/badge/Postgress-gray"/>
-  <img alt="Static Badge" src="https://img.shields.io/badge/MongoDb-Green"/>
-  <img alt="Static Badge" src="https://img.shields.io/badge/Prisma-black"/>
-  <img alt="Static Badge" src="https://img.shields.io/badge/AWS-brown"/>
-  <img alt="Static Badge" src="https://img.shields.io/badge/React-Js-skyblue"/>
-  <img alt="Static Badge" src="https://img.shields.io/badge/Next-Js-black"/>
-  <img alt="Static Badge" src="https://img.shields.io/badge/React-Native-skyblue"/>
-  <img alt="Static Badge" src="https://img.shields.io/badge/Flutter-blue"/>
-  <img alt="Static Badge" src="https://img.shields.io/badge/Rabbit--MQ-red"/>
-  <img alt="Static Badge" src="https://img.shields.io/badge/Apache-Kafka-red"/>
-  <img alt="Static Badge" src="https://img.shields.io/badge/ELK-Elastic--Search-green"/>
-</p>
 
 ## 📊 My GitHub Stats
 
