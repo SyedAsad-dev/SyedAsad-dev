@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { close, menu, logo, logotext } from '../assets';
+import { close, menu, logo, logotext, linkedin } from '../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -13,6 +13,21 @@ const Navbar = () => {
       className={`${styles.paddingX} w-full flex items-center py-2 fixed 
       top-0 z-20 bg-flashWhite sm:opacity-[0.97] xxs:h-[12vh]`}>
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
+      <Link
+          to="/"
+          className="flex items-center gap-2"
+          onClick={() => window.open("https://www.linkedin.com/in/syedasadalirizvi/", "_blank")}>
+          {/* <img
+            src={logo} // your logo comes here
+            alt="logo"
+            className="sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] object-contain"
+          /> */}
+          <img
+            src={linkedin}
+            alt="linkedin"
+            className="sm:w-[190px] sm:h-[90px] md:hidden lg:inline-block w-[205px] h-[85px] -ml-[0.6rem] object-contain"
+          />
+        </Link>
         <Link
           to="/"
           className="flex items-center gap-2"
