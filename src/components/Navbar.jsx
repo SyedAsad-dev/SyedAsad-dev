@@ -31,7 +31,19 @@ const Navbar = () => {
             className="sm:w-[190px] sm:h-[90px] md:hidden lg:inline-block w-[205px] h-[85px] -ml-[0.6rem] object-contain"
           />
         </Link>
-        <Link
+        <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
+          {navLinks.map((nav) => (
+            <li
+              key={nav.id}
+              className={`${
+                active === nav.title ? 'text-french' : 'text-eerieBlack'
+              } hover:text-taupe text-[21px] font-medium font-mova 
+                uppercase tracking-[3px] cursor-pointer nav-links`}
+              onClick={() => setActive(nav.title)}>
+              <a href={`#${nav.id}`}>{nav.title}</a>
+            </li>
+          ))}
+                  <Link
           to="/"
           className="flex items-center gap-2"
           onClick={() => window.open("https://www.linkedin.com/in/syedasadalirizvi/", "_blank")}>
@@ -46,18 +58,6 @@ const Navbar = () => {
             className="sm:w-[100px] sm:h-[50px] md:hidden lg:inline-block w-[110px] h-[45px] -ml-[0.6rem] object-contain"
           />
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
-          {navLinks.map((nav) => (
-            <li
-              key={nav.id}
-              className={`${
-                active === nav.title ? 'text-french' : 'text-eerieBlack'
-              } hover:text-taupe text-[21px] font-medium font-mova 
-                uppercase tracking-[3px] cursor-pointer nav-links`}
-              onClick={() => setActive(nav.title)}>
-              <a href={`#${nav.id}`}>{nav.title}</a>
-            </li>
-          ))}
         </ul>
 
         {/* mobile */}
