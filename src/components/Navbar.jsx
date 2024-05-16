@@ -13,21 +13,6 @@ const Navbar = () => {
       className={`${styles.paddingX} w-full flex items-center py-2 fixed 
       top-0 z-20 bg-flashWhite sm:opacity-[0.97] xxs:h-[12vh]`}>
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
-      <Link
-          to="/"
-          className="flex items-center gap-2"
-          onClick={() => window.open("https://www.linkedin.com/in/syedasadalirizvi/", "_blank")}>
-          {/* <img
-            src={logo} // your logo comes here
-            alt="logo"
-            className="sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] object-contain"
-          /> */}
-          <img
-            src={linkedin}
-            alt="linkedin"
-            className="sm:w-[190px] sm:h-[90px] md:hidden lg:inline-block w-[205px] h-[85px] -ml-[0.6rem] object-contain"
-          />
-        </Link>
         <Link
           to="/"
           className="flex items-center gap-2"
@@ -44,6 +29,21 @@ const Navbar = () => {
             src={logotext}
             alt="logo"
             className="sm:w-[190px] sm:h-[90px] md:hidden lg:inline-block w-[205px] h-[85px] -ml-[0.6rem] object-contain"
+          />
+        </Link>
+        <Link
+          to="/"
+          className="flex items-center gap-2"
+          onClick={() => window.open("https://www.linkedin.com/in/syedasadalirizvi/", "_blank")}>
+          {/* <img
+            src={logo} // your logo comes here
+            alt="logo"
+            className="sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] object-contain"
+          /> */}
+          <img
+            src={linkedin}
+            alt="linkedin"
+            className="sm:w-[100px] sm:h-[50px] md:hidden lg:inline-block w-[110px] h-[45px] -ml-[0.6rem] object-contain"
           />
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
