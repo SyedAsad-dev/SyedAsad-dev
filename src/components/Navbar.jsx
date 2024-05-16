@@ -78,7 +78,7 @@ const Navbar = () => {
       <img
               src={github1} // your logo comes here
               alt="github1"
-              className="sm:w-[150px] sm:h-[50px] md:hidden lg:inline-block w-[158px] h-[38px] -ml-[0.6rem] object-contain"
+              className="sm:w-[140px] sm:h-[30px] md:hidden lg:inline-block w-[150px] h-[30px] -ml-[0.6rem] object-contain"
 
             />
               </Link>
