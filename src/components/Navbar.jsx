@@ -73,14 +73,14 @@ const Navbar = () => {
           
         } 
       </div>
-      <div className="flex justify-end">
+      <Link className="flex justify-end">
       <img
               src={github1} // your logo comes here
               alt="github1"
-              className="sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] object-contain"
+              className="sm:w-[190px] sm:h-[90px] md:hidden lg:inline-block w-[205px] h-[85px] -ml-[0.6rem] object-contain"
               onClick={() => window.open("https://github.com/SyedAsad-dev/UniversitiesTest/", "_blank")}
             />
-              </div>
+              </Link>
 
         {/* mobile */}
         <div className="sm:hidden flex flex-1 w-screen justify-end items-center">
