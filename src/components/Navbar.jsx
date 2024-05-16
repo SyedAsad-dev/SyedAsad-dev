@@ -55,7 +55,7 @@ const Navbar = () => {
           <img
             src={linkedin}
             alt="linkedin"
-            className="sm:w-[100px] sm:h-[50px] md:hidden lg:inline-block w-[110px] h-[45px] -ml-[0.6rem] object-contain"
+            className="sm:w-[190px] sm:h-[90px] md:hidden lg:inline-block w-[205px] h-[85px] -ml-[0.6rem] object-contain"
           />
         </Link>
         </ul>
