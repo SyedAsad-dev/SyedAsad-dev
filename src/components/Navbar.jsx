@@ -77,8 +77,8 @@ const Navbar = () => {
       onClick={() => window.open("https://github.com/SyedAsad-dev/UniversitiesTest/", "_blank")}>
       <img
               src={github1} // your logo comes here
-              alt="linkedin"
-              className="sm:w-[190px] sm:h-[90px] md:hidden lg:inline-block w-[205px] h-[85px] -ml-[0.6rem] object-contain"
+              alt="github1"
+              className="sm:w-[150px] sm:h-[50px] md:hidden lg:inline-block w-[170px] h-[45px] -ml-[0.6rem] object-contain"
 
             />
               </Link>
