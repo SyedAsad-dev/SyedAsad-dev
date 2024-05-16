@@ -6,7 +6,7 @@ import { close, menu, logo, logotext, linkedin } from '../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
 
   return (
     <nav
@@ -44,6 +44,24 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+        <div className="flex flex-1 w-screen justify-end items-center">
+          {
+          <Link
+            className="flex items-center gap-2"
+            onClick={() => window.open("https://www.linkedin.com/in/syedasadalirizvi/", "_blank")}>
+            <img
+              src={logo} // your logo comes here
+              alt="logo"
+              className="sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] object-contain"
+            />
+            <img
+              src={linkedin}
+              alt="linkedin"
+              className="sm:w-[190px] sm:h-[90px] md:hidden lg:inline-block w-[205px] h-[85px] -ml-[0.6rem] object-contain"
+            />
+          </Link>
+        } 
+      </div>
 
         {/* mobile */}
         <div className="sm:hidden flex flex-1 w-screen justify-end items-center">
