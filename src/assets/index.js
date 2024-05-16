@@ -18,6 +18,7 @@ import booking from './icons/booking.png';
 import frontend from './icons/frontend.png';
 import prototyping from './icons/prototyping.png';
 import github from './icons/github.png';
+import github1 from './icons/github1.png';
 import close from './icons/close.png';
 import download from './icons/download.png';
 import downloadHover from './icons/downloadHover.png';
@@ -111,6 +112,7 @@ export {
   frontend,
   prototyping,
   github,
+  github1,
   close,
   download,
   downloadHover,
