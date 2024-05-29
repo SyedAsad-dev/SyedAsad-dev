@@ -45,7 +45,7 @@ const Navbar = () => {
                <img
                  src={linkedin}
                  alt="linkedin"
-                 className="w-[170px] h-[50px] object-contain"
+                 className="w-[190px] h-[70px] object-contain"
                />
              </Link>
 
