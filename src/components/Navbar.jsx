@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { close, menu, logo, logotext, linkedin, github1, medium } from '../assets';
+import { close, menu, logo, logotext, linkedin, github1, medium, linkedin2 } from '../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -52,7 +52,7 @@ const Navbar = () => {
                className="hidden sm:flex justify-end items-center"
                onClick={() => window.open("https://www.linkedin.com/in/syedasadalirizvi/", "_blank")}>
                <img
-                 src={medium}
+                 src={linkedin2}
                  alt="linkedin"
                  className="w-[158px] h-[38px] object-contain"
                />

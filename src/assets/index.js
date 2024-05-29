@@ -7,6 +7,7 @@ import logo2 from './logo/logo-black.png';
 import logo from './logo/logo-text-black.png';
 import logotext from './logo/logo-text-black.png';
 import linkedin from './icons/linkedin.png';
+import linkedin2 from './icons/Linkedin-Logo.jpg';
 import medium from './icons/medium.png';
 
 import shaq from './personal/shaq.png';
@@ -104,6 +105,7 @@ export {
   logo,
   logotext,
   linkedin,
+  linkedin2,
   medium,
   shaq,
   resumeFile,
