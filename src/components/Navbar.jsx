@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { close, menu, logo, logotext, linkedin, github1 } from '../assets';
+import { close, menu, logo, logotext, linkedin, github1, medium } from '../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -78,6 +78,15 @@ const Navbar = () => {
       <img
               src={github1} // your logo comes here
               alt="github1"
+              className="sm:w-[148px] sm:h-[38px] md:hidden lg:inline-block w-[158px] h-[38px] -ml-[0.6rem] object-contain"
+
+            />
+              </Link>
+              <Link className="flex justify-end"
+      onClick={() => window.open("https://medium.com/@syed4asad4", "_blank")}>
+      <img
+              src={medium} // your logo comes here
+              alt="medium"
               className="sm:w-[148px] sm:h-[38px] md:hidden lg:inline-block w-[158px] h-[38px] -ml-[0.6rem] object-contain"
 
             />
