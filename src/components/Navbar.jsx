@@ -40,6 +40,13 @@ const Navbar = () => {
         <div className="flex flex-row justify-end items-center gap-4">
 
         <Link
+               className="hidden sm:flex justify-end items-center">
+               <img
+                 className="w-[200px] h-[80px] object-contain"
+               />
+             </Link>
+
+        <Link
                className="hidden sm:flex justify-end items-center"
                onClick={() => window.open("https://www.linkedin.com/in/syedasadalirizvi/", "_blank")}>
                <img
