@@ -52,7 +52,7 @@ const Navbar = () => {
                className="hidden sm:flex justify-end items-center"
                onClick={() => window.open("https://www.linkedin.com/in/syedasadalirizvi/", "_blank")}>
                <img
-                 src={github1}
+                 src={medium}
                  alt="linkedin"
                  className="w-[158px] h-[38px] object-contain"
                />
