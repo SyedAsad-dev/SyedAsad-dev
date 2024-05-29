@@ -9,6 +9,7 @@ import logotext from './logo/logo-text-black.png';
 import linkedin from './icons/linkedin.png';
 import linkedin2 from './icons/Linkedin-Logo.jpg';
 import medium from './icons/medium.png';
+import emptyImage from './icons/empty.png';
 
 import shaq from './personal/shaq.png';
 import resumeFile from './personal/resumeFile.pdf';
@@ -106,6 +107,7 @@ export {
   logotext,
   linkedin,
   linkedin2,
+  emptyImage,
   medium,
   shaq,
   resumeFile,

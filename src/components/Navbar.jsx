@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { close, menu, logo, logotext, linkedin, github1, medium, linkedin2 } from '../assets';
+import { close, menu, logo, logotext, linkedin, github1, medium, linkedin2, emptyImage } from '../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -38,10 +38,12 @@ const Navbar = () => {
         </ul>
 
         <div className="flex flex-row justify-end items-center gap-4">
-
+        
         <Link
                className="hidden sm:flex justify-end items-center">
                <img
+                 src={emptyImage}
+                 alt="emptyImage"
                  className="w-[200px] h-[80px] object-contain"
                />
              </Link>
