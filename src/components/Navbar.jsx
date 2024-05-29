@@ -61,18 +61,28 @@ const Navbar = () => {
               //    />
               //  </Link>
             
-          <Link
-            className="flex items-center gap-2"
+          // <Link
+          //   className="flex items-center gap-2"
+          //   onClick={() => window.open("https://www.linkedin.com/in/syedasadalirizvi/", "_blank")}>
+          //   <img
+          //     src={linkedin}
+          //     alt="linkedin"
+          //     className="sm:w-[190px] sm:h-[90px] md:hidden lg:inline-block w-[205px] h-[85px] -ml-[0.6rem] object-contain"
+          //   />
+          // </Link>
+          
+        } 
+      </div>
+      <Link
+            className="flex justify-end"
             onClick={() => window.open("https://www.linkedin.com/in/syedasadalirizvi/", "_blank")}>
             <img
               src={linkedin}
               alt="linkedin"
-              className="sm:w-[190px] sm:h-[90px] md:hidden lg:inline-block w-[205px] h-[85px] -ml-[0.6rem] object-contain"
+              className="sm:w-[148px] sm:h-[38px] md:hidden lg:inline-block w-[158px] h-[38px] -ml-[0.6rem] object-contain"
             />
           </Link>
-          
-        } 
-      </div>
+
       <Link className="flex justify-end"
       onClick={() => window.open("https://github.com/SyedAsad-dev/UniversitiesTest/", "_blank")}>
       <img
