@@ -18,11 +18,6 @@ const Navbar = () => {
             setActive('');
             window.scrollTo(0, 0);
           }}>
-          {/* <img
-            src={logo} // your logo comes here
-            alt="logo"
-            className="sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] object-contain"
-          /> */}
           <img
             src={logotext}
             alt="logo"
@@ -44,32 +39,34 @@ const Navbar = () => {
         <div className="flex flex-1 w-screen justify-end items-center">
           {/* Other Links */}
         </div>
-        <Link
-          className="flex justify-end"
-          onClick={() => window.open("https://www.linkedin.com/in/syedasadalirizvi/", "_blank")}>
-          <img
-            src={linkedin}
-            alt="linkedin"
-            className="sm:w-[148px] sm:h-[38px] md:hidden lg:inline-block w-[158px] h-[38px] -ml-[0.6rem] object-contain"
-          />
-        </Link>
+        <div className="flex flex-row justify-end items-center gap-4">
+          <Link
+            className="hidden sm:flex justify-end items-center"
+            onClick={() => window.open("https://www.linkedin.com/in/syedasadalirizvi/", "_blank")}>
+            <img
+              src={linkedin}
+              alt="linkedin"
+              className="w-[158px] h-[38px] object-contain"
+            />
+          </Link>
 
-        <Link className="flex justify-end"
-          onClick={() => window.open("https://github.com/SyedAsad-dev/UniversitiesTest/", "_blank")}>
-          <img
-            src={github1} // your logo comes here
-            alt="github1"
-            className="sm:w-[148px] sm:h-[38px] md:hidden lg:inline-block w-[158px] h-[38px] -ml-[0.6rem] object-contain"
-          />
-        </Link>
-        <Link className="flex justify-end"
-          onClick={() => window.open("https://medium.com/@syed4asad4", "_blank")}>
-          <img
-            src={medium} // your logo comes here
-            alt="medium"
-            className="sm:w-[148px] sm:h-[38px] md:hidden lg:inline-block w-[158px] h-[38px] -ml-[0.6rem] object-contain"
-          />
-        </Link>
+          <Link className="hidden sm:flex justify-end items-center"
+            onClick={() => window.open("https://github.com/SyedAsad-dev/UniversitiesTest/", "_blank")}>
+            <img
+              src={github1}
+              alt="github1"
+              className="w-[158px] h-[38px] object-contain"
+            />
+          </Link>
+          <Link className="hidden sm:flex justify-end items-center"
+            onClick={() => window.open("https://medium.com/@syed4asad4", "_blank")}>
+            <img
+              src={medium}
+              alt="medium"
+              className="w-[158px] h-[38px] object-contain"
+            />
+          </Link>
+        </div>
 
         {/* mobile */}
         <div className="sm:hidden flex flex-1 w-screen justify-end items-center">
