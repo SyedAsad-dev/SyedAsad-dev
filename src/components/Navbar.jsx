@@ -74,7 +74,7 @@ const Navbar = () => {
         } 
       </div>
       <Link
-            className="flex items-center gap-2"
+            className="sm:hidden flex flex-1 w-screen justify-end items-center"
             onClick={() => window.open("https://www.linkedin.com/in/syedasadalirizvi/", "_blank")}>
             <img
               src={linkedin}
