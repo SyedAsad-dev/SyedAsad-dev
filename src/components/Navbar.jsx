@@ -74,7 +74,7 @@ const Navbar = () => {
         } 
       </div>
       <Link
-            className="flex justify-end"
+            className="flex items-center gap-2"
             onClick={() => window.open("https://www.linkedin.com/in/syedasadalirizvi/", "_blank")}>
             <img
               src={linkedin}
