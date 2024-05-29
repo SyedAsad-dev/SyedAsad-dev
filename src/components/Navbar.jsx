@@ -45,7 +45,7 @@ const Navbar = () => {
                <img
                  src={linkedin}
                  alt="linkedin"
-                 className="w-[190px] h-[70px] object-contain"
+                 className="w-[200px] h-[80px] object-contain"
                />
              </Link>
 
@@ -63,7 +63,7 @@ const Navbar = () => {
             <img
               src={medium}
               alt="medium"
-              className="w-[158px] h-[38px] object-contain"
+              className="w-[145px] h-[28px] object-contain"
             />
           </Link>
         </div>
