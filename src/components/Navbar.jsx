@@ -39,6 +39,16 @@ const Navbar = () => {
 
         <div className="flex flex-row justify-end items-center gap-4">
 
+        <Link
+               className="hidden sm:flex justify-end items-center"
+               onClick={() => window.open("https://www.linkedin.com/in/syedasadalirizvi/", "_blank")}>
+               <img
+                 src={linkedin}
+                 alt="linkedin"
+                 className="w-[170px] h-[50px] object-contain"
+               />
+             </Link>
+
         <Link className="hidden sm:flex justify-end items-center"
             onClick={() => window.open("https://github.com/SyedAsad-dev/UniversitiesTest/", "_blank")}>
             <img
@@ -47,16 +57,6 @@ const Navbar = () => {
               className="w-[158px] h-[38px] object-contain"
             />
           </Link>
-
-        <Link
-               className="hidden sm:flex justify-end items-center"
-               onClick={() => window.open("https://www.linkedin.com/in/syedasadalirizvi/", "_blank")}>
-               <img
-                 src={linkedin2}
-                 alt="linkedin"
-                 className="w-[158px] h-[38px] object-contain"
-               />
-             </Link>
 
           <Link className="hidden sm:flex justify-end items-center"
             onClick={() => window.open("https://medium.com/@syed4asad4", "_blank")}>
