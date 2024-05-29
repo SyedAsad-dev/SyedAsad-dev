@@ -45,7 +45,7 @@ const Navbar = () => {
           {/* Other Links */}
         </div>
         <Link
-          className="sm:hidden flex flex-1 w-screen justify-end items-center"
+          className="flex justify-end"
           onClick={() => window.open("https://www.linkedin.com/in/syedasadalirizvi/", "_blank")}>
           <img
             src={linkedin}
