@@ -38,7 +38,7 @@ const Navbar = () => {
         </ul>
 
         <div className="flex flex-row justify-end items-center gap-4">
-          
+
         <Link className="hidden sm:flex justify-end items-center"
             onClick={() => window.open("https://github.com/SyedAsad-dev/UniversitiesTest/", "_blank")}>
             <img
@@ -52,7 +52,7 @@ const Navbar = () => {
                className="hidden sm:flex justify-end items-center"
                onClick={() => window.open("https://www.linkedin.com/in/syedasadalirizvi/", "_blank")}>
                <img
-                 src={linkedin}
+                 src={github1}
                  alt="linkedin"
                  className="w-[158px] h-[38px] object-contain"
                />
