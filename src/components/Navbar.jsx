@@ -37,18 +37,20 @@ const Navbar = () => {
           ))}
         </ul>
         <div className="flex flex-1 w-screen justify-end items-center">
-          {/* Other Links */}
+          {/* Other Links */
+               <Link
+               className="hidden sm:flex justify-end items-center"
+               onClick={() => window.open("https://www.linkedin.com/in/syedasadalirizvi/", "_blank")}>
+               <img
+                 src={linkedin}
+                 alt="linkedin"
+                 className="w-[158px] h-[38px] object-contain"
+               />
+             </Link>
+          }
         </div>
         <div className="flex flex-row justify-end items-center gap-4">
-          <Link
-            className="hidden sm:flex justify-end items-center"
-            onClick={() => window.open("https://www.linkedin.com/in/syedasadalirizvi/", "_blank")}>
-            <img
-              src={linkedin}
-              alt="linkedin"
-              className="w-[158px] h-[38px] object-contain"
-            />
-          </Link>
+     
 
           <Link className="hidden sm:flex justify-end items-center"
             onClick={() => window.open("https://github.com/SyedAsad-dev/UniversitiesTest/", "_blank")}>
