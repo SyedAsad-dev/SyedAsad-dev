@@ -77,6 +77,7 @@ import taif from './company/taif.jpeg';
 import shisheo from './company/shisheo.jpeg';
 import venocare from './company/venocare.jpeg';
 import santra from './company/santra.jpeg';
+import leadvy from './company/leadvy.jpeg';
 
 import etihad from './projects/komikult.png';
 import schoolhack1 from './projects/schoolHack1.jpeg';
@@ -170,6 +171,7 @@ export {
   shisheo,
   venocare,
   santra,
+  leadvy,
   commit2Sit,
   schoolhack1,
   chargefuze,
