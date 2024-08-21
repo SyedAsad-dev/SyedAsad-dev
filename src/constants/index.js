@@ -193,7 +193,7 @@ const experiences = [
     company_name: 'VenoCare',
     icon: venocare,
     iconBg: '#333333',
-    date: '2023 - 2024',
+    date: '2023 - Present',
   },
   {
     title: 'Senior iOS Mobile Developer (Freelance)',
