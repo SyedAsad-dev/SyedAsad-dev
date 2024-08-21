@@ -189,21 +189,21 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Senior Mobile Developer',
+    title: 'Senior iOS Mobile Developer',
     company_name: 'VenoCare',
     icon: venocare,
     iconBg: '#333333',
     date: '2023 - 2024',
   },
   {
-    title: 'Senior Mobile Developer (Freelance)',
+    title: 'Senior iOS Mobile Developer (Freelance)',
     company_name: 'LEADVY',
     icon: leadvy,
     iconBg: '#333333',
     date: 'Sep 2023 - Dec 2023',
   },
   {
-    title: 'Team Lead Developer (Freelance)',
+    title: 'Team iOS Lead Developer (Freelance)',
     company_name: 'Santra',
     icon: santra,
     iconBg: '#333333',
@@ -224,7 +224,7 @@ const experiences = [
     date: '2021 - 2023',
   },
   {
-    title: 'Senior Mobile Developer',
+    title: 'Senior iOS Mobile Developer',
     company_name: 'Taif al Emarat',
     icon: taif,
     iconBg: '#333333',
