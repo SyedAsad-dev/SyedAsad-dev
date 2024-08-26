@@ -189,7 +189,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Senior iOS Mobile Developer',
+    title: 'iOS Architect',
     company_name: 'VenoCare',
     icon: venocare,
     iconBg: '#333333',
