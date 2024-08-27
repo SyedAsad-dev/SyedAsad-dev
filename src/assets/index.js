@@ -12,7 +12,7 @@ import medium from './icons/medium.png';
 import emptyImage from './icons/empty.png';
 
 import shaq from './personal/shaq.png';
-import resumeFile from './personal/resumeFilee.pdf';
+import resumeFile from './personal/resume.pdf';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
