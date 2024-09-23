@@ -25,7 +25,7 @@ const ServiceCard = ({ index, link, icon }) => {
               //     .setAttribute("src", pineapple);
               // }}
             >
-             <img src={icon} alt={link} className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px]" />
+             <img src={icon} alt={link} className="absolute w-full h-full object-cover" />
   
             </button>
       
