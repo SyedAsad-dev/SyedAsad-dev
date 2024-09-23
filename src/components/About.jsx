@@ -5,39 +5,28 @@ import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 
-const ServiceCard = ({ index, title, icon }) => {
+const ServiceCard = ({ index, link, icon }) => {
   return (
     <motion.div
       variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
       className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] shadow-card"
     >
       <button
-              className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] shadow-card"
-              onClick={() => window.open(demo, "_blank")}
-              onMouseOver={() => {
-                document
-                  .querySelector(".btn-icon")
-                  .setAttribute("src", pineappleHover);
-              }}
-              onMouseOut={() => {
-                document
-                  .querySelector(".btn-icon")
-                  .setAttribute("src", pineapple);
-              }}
+              className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px]"
+              onClick={() => window.open(link, "_blank")}
+              // onMouseOver={() => {
+              //   document
+              //     .querySelector(".btn-icon")
+              //     .setAttribute("src", pineappleHover);
+              // }}
+              // onMouseOut={() => {
+              //   document
+              //     .querySelector(".btn-icon")
+              //     .setAttribute("src", pineapple);
+              // }}
             >
-              <div
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
-        className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] shadow-card"
-      >
-        <img src={icon} alt={title} className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] shadow-card" />
-        {/* <h3 className="text-taupe text-[18px] font-bold text-center">
-          {title}
-        </h3> */}
-      </div>
+             <img src={icon} alt={link} className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px]" />
+  
             </button>
       
     </motion.div>
@@ -73,7 +62,7 @@ const About = () => {
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
+          <ServiceCard key={service.link} index={index} {...service} />
         ))}
       </div>
     </div>
