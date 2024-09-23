@@ -7,9 +7,10 @@ import { SectionWrapper } from "../hoc";
 
 const ServiceCard = ({ index, link, icon }) => {
   return (
+
     <motion.div
       variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-      className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] shadow-card"
+      className="xs:w-[250px] w-full bg-jetLight opacity-[0.0] card-gradient p-[1px] rounded-[20px]"
     >
       <button
               className="xs:w-[250px] w-full rounded-[20px]"
@@ -54,7 +55,9 @@ const About = () => {
         about staying updated with the latest technologies and continuously improving skills to deliver innovative solutions in the
         ever-evolving mobile development landscape.
       </motion.p>
-      <div className="-mt-[6rem]">
+
+     
+      <div className="absolute top-10 ">
       <motion.div variants={textVariant()}>
         {/* <p className={styles.sectionSubText}>Introduction</p> */}
         <h2 className={styles.sectionHeadText}>Articals.</h2>
