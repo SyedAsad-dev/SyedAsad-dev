@@ -62,6 +62,11 @@ import appStore from './tech/appStore.png';
 import ios from './tech/ios.png';
 
 import navigationStack from './articals/navigationStack.jpg';
+import appleVerify from './articals/apple.jpeg';
+import composit from './articals/composit.jpeg';
+import Jailbreaking from './articals/Jailbreaking.jpeg';
+import pki from './articals/pki.jpeg';
+import tls from './articals/tls.jpeg';
 
 
 
@@ -168,6 +173,11 @@ export {
   appStore,
   ios,
   navigationStack,
+  appleVerify,
+  composit,
+  Jailbreaking,
+  pki,
+  tls,
   brainplow,
   drClinica,
   schoolhack,

@@ -27,6 +27,11 @@ import {
   appStore,
   ios,
   navigationStack,
+  appleVerify,
+  composit,
+  Jailbreaking,
+  pki,
+  tls,
   xcode,
   firebase,
   graphql,
@@ -80,23 +85,31 @@ export const navLinks = [
 
 const services = [
 
-  // {
-  //   title: 'Backend Developer',
-  //   icon: backend,
-  // },
+  {
+    link: 'https://syed4asad4.medium.com/how-iphones-verify-and-trust-applications-1c48271afd1b',
+    icon: appleVerify,
+  },
   {
     link: 'https://syed4asad4.medium.com/swiftui-navigationstack-how-to-navigate-complex-views-with-ease-e1dc1d1535f7',
     icon: navigationStack,
   },
 
   {
-    link: 'Flutter Developer',
-    icon: dart,
+    link: 'https://syed4asad4.medium.com/composite-root-along-with-navigation-064aed624b9d',
+    icon: composit,
   },
-  // {
-  //   title: 'Software Prototyping',
-  //   icon: prototyping,
-  // },
+  {
+    link: 'https://syed4asad4.medium.com/ios-bootup-process-and-jailbreaking-a0b98de5f16c',
+    icon: Jailbreaking,
+  },
+  {
+    link: 'https://syed4asad4.medium.com/basic-concepts-of-pki-a93ac9bbdfb3',
+    icon: pki,
+  },
+  {
+    link: 'https://syed4asad4.medium.com/applications-ssl-tls-pinning-in-tls-handshakes-ed0e209c33c6',
+    icon: tls,
+  },
 ];
 
 
