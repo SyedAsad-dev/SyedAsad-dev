@@ -85,12 +85,12 @@ const services = [
   //   icon: backend,
   // },
   {
-    title: 'iOS App Developer',
+    link: 'https://syed4asad4.medium.com/swiftui-navigationstack-how-to-navigate-complex-views-with-ease-e1dc1d1535f7',
     icon: navigationStack,
   },
 
   {
-    title: 'Flutter Developer',
+    link: 'Flutter Developer',
     icon: dart,
   },
   // {
