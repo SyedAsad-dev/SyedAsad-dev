@@ -20,12 +20,12 @@ const ServiceCard = ({ index, link, icon }) => {
               //     .setAttribute("src", pineappleHover);
               // }}
               // onMouseOut={() => {
-              //   document
+              //   documentxs
               //     .querySelector(".btn-icon")
               //     .setAttribute("src", pineapple);
               // }}
             >
-             <img src={icon} alt={link} className="flex items-center justify-center xs:w-[250px] h-[250px] card-gradient " />
+             <img src={icon} alt={link} className="flex items-center justify-center xs:w-[250px] h-[250px] card-gradient p-[1px] rounded-[20px]" />
   
             </button>
       
