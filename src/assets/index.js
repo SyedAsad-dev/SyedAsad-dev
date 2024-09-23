@@ -67,6 +67,9 @@ import composit from './articals/composit.jpeg';
 import Jailbreaking from './articals/Jailbreaking.jpeg';
 import pki from './articals/pki.jpeg';
 import tls from './articals/tls.jpeg';
+import obserable from './articals/obserable.jpeg';
+import container from './articals/container.jpeg';
+
 
 
 
@@ -178,6 +181,8 @@ export {
   Jailbreaking,
   pki,
   tls,
+  obserable,
+  container,
   brainplow,
   drClinica,
   schoolhack,

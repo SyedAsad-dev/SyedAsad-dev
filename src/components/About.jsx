@@ -12,7 +12,7 @@ const ServiceCard = ({ index, link, icon }) => {
       className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] shadow-card"
     >
       <button
-              className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px]"
+              className="xs:w-[250px] w-full rounded-[20px]"
               onClick={() => window.open(link, "_blank")}
               // onMouseOver={() => {
               //   document
@@ -25,7 +25,7 @@ const ServiceCard = ({ index, link, icon }) => {
               //     .setAttribute("src", pineapple);
               // }}
             >
-             <img src={icon} alt={link} className="flex items-center justify-center xs:w-[250px] h-[250px] card-gradient p-[1px] rounded-[20px]" />
+             <img src={icon} alt={link} className="flex items-center justify-center xs:w-[250px] h-[250px] rounded-[20px]" />
   
             </button>
       
@@ -54,7 +54,7 @@ const About = () => {
         about staying updated with the latest technologies and continuously improving skills to deliver innovative solutions in the
         ever-evolving mobile development landscape.
       </motion.p>
-
+      <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
         {/* <p className={styles.sectionSubText}>Introduction</p> */}
         <h2 className={styles.sectionHeadText}>Articals.</h2>
@@ -64,6 +64,7 @@ const About = () => {
         {services.map((service, index) => (
           <ServiceCard key={service.link} index={index} {...service} />
         ))}
+      </div>
       </div>
     </div>
   );

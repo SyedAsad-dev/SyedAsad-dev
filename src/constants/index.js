@@ -32,6 +32,8 @@ import {
   Jailbreaking,
   pki,
   tls,
+  obserable,
+  container,
   xcode,
   firebase,
   graphql,
@@ -109,6 +111,14 @@ const services = [
   {
     link: 'https://syed4asad4.medium.com/applications-ssl-tls-pinning-in-tls-handshakes-ed0e209c33c6',
     icon: tls,
+  },
+  {
+    link: 'https://syed4asad4.medium.com/performance-benefits-of-observable-macro-over-observableobject-in-swift-e37168bf4d7c',
+    icon: obserable,
+  },
+  {
+    link: 'https://syed4asad4.medium.com/clean-and-modular-swift-code-with-dependency-injection-containers-without-any-third-party-d7724f3bf77b',
+    icon: container,
   },
 ];
 
