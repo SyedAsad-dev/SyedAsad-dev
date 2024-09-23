@@ -13,7 +13,7 @@ const ServiceCard = ({ index, link, icon }) => {
       className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px]"
     >
       <button
-              className="xs:w-[250px] w-full bg-jetLight opacity-[0.0] rounded-[20px]"
+              className="xs:w-[250px] w-full bg-jetLight rounded-[20px]"
               onClick={() => window.open(link, "_blank")}
               // onMouseOver={() => {
               //   document
