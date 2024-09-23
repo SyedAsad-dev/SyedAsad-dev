@@ -10,10 +10,10 @@ const ServiceCard = ({ index, link, icon }) => {
 
     <motion.div
       variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-      className="xs:w-[250px] w-full bg-jetLight opacity-[0.0] card-gradient p-[1px] rounded-[20px]"
+      className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px]"
     >
       <button
-              className="xs:w-[250px] w-full rounded-[20px]"
+              className="xs:w-[250px] w-full bg-jetLight opacity-[0.0] rounded-[20px]"
               onClick={() => window.open(link, "_blank")}
               // onMouseOver={() => {
               //   document
@@ -26,7 +26,7 @@ const ServiceCard = ({ index, link, icon }) => {
               //     .setAttribute("src", pineapple);
               // }}
             >
-             <img src={icon} alt={link} className="flex items-center justify-center xs:w-[250px] h-[250px] rounded-[20px]" />
+             <img src={icon} alt={link} className="flex items-center justify-center xs:w-[250px] h-[250px] bg-jetLight opacity-[0.0] rounded-[20px]" />
   
             </button>
       
@@ -57,9 +57,8 @@ const About = () => {
       </motion.p>
 
      
-      <div className="absolute top-10 ">
       <motion.div variants={textVariant()}>
-        {/* <p className={styles.sectionSubText}>Introduction</p> */}
+        <p className={styles.sectionSubText}></p>
         <h2 className={styles.sectionHeadText}>Articals.</h2>
       </motion.div>
 
@@ -67,7 +66,6 @@ const About = () => {
         {services.map((service, index) => (
           <ServiceCard key={service.link} index={index} {...service} />
         ))}
-      </div>
       </div>
     </div>
   );
