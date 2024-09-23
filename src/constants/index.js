@@ -26,6 +26,7 @@ import {
   swiftUI,
   appStore,
   ios,
+  navigationStack,
   xcode,
   firebase,
   graphql,
@@ -85,7 +86,7 @@ const services = [
   // },
   {
     title: 'iOS App Developer',
-    icon: xcode,
+    icon: navigationStack,
   },
 
   {

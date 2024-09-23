@@ -61,6 +61,9 @@ import swift from './tech/swift.png';
 import appStore from './tech/appStore.png';
 import ios from './tech/ios.png';
 
+import navigationStack from './articals/navigationStack.jpg';
+
+
 
 import coverhunt from './company/coverhunt.png';
 import amadeus from './company/amadeus.png';
@@ -164,6 +167,7 @@ export {
   swift,
   appStore,
   ios,
+  navigationStack,
   brainplow,
   drClinica,
   schoolhack,
