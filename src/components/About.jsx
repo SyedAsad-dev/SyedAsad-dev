@@ -59,7 +59,7 @@ const About = () => {
      
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}></p>
-        <h2 className={styles.sectionHeadText}>Articals.</h2>
+        <h2 className={styles.sectionHeadText}>Articles.</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-wrap gap-10">
