@@ -52,4 +52,10 @@
     <img alt="Static Badge" src="https://img.shields.io/badge/my_personal_web_site-1DA1F2?style=for-the-badge&logo=ko-fi&logoColor=white"/>
   </a>
 
+  <a href="https://syed4asad4.medium.com/" target="_new"> 
+    <img alt="Static Badge" src="https://miro.medium.com/v2/resize:fit:2400/1*6_fgYnisCa9V21mymySIvA.png"/>
+  </a>
+
+  
+
 </p>
