@@ -53,7 +53,7 @@
   </a>
 
   <a href="https://syed4asad4.medium.com/" target="_new"> 
-    <img alt="Static Badge" src="https://miro.medium.com/v2/resize:fit:2400/1*6_fgYnisCa9V21mymySIvA.png"/>
+    <img alt="Static Badge" src="https://logos-world.net/wp-content/uploads/2023/07/Medium-Logo.png" width="250" height="50" />
   </a>
 
   
