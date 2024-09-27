@@ -59,7 +59,7 @@ const Navbar = () => {
              </Link>
 
         <Link className="hidden sm:flex justify-end items-center"
-            onClick={() => window.open("https://github.com/SyedAsad-dev?tab=repositories", "_blank")}>
+            onClick={() => window.open("https://github.com/SyedAsad-dev/eCabs_Malta", "_blank")}>
             <img
               src={github1}
               alt="github1"
