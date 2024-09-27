@@ -53,7 +53,7 @@
   </a>
 
   <a href="https://syed4asad4.medium.com/" target="_new"> 
-    <img alt="Static Badge" src="https://res.cloudinary.com/jerrick/image/upload/d_642250b563292b35f27461a7.png,f_jpg,fl_progressive,q_auto,w_1024/pql9qrfcdftz3gwpnefh.jpg" width="250" height="25" style="background-color: white;"/>
+    <img alt="Static Badge" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdhNJlbgV1DWAgC1TaVLkuI_8InctwvetpRQ&s" width="250" height="25" style="background-color: white;"/>
   </a>
 
   
