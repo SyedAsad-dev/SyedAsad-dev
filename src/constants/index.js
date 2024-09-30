@@ -88,13 +88,17 @@ export const navLinks = [
 const services = [
 
   {
+    link: 'https://syed4asad4.medium.com/swiftui-spm-a-comprehensive-guide-to-interface-modularization-c0a9e5bd5a6e',
+    icon: navigationStack,
+  },
+  {
     link: 'https://syed4asad4.medium.com/how-iphones-verify-and-trust-applications-1c48271afd1b',
     icon: appleVerify,
   },
-  {
-    link: 'https://syed4asad4.medium.com/swiftui-navigationstack-how-to-navigate-complex-views-with-ease-e1dc1d1535f7',
-    icon: navigationStack,
-  },
+  // {
+  //   link: 'https://syed4asad4.medium.com/swiftui-navigationstack-how-to-navigate-complex-views-with-ease-e1dc1d1535f7',
+  //   icon: navigationStack,
+  // },
 
   {
     link: 'https://syed4asad4.medium.com/composite-root-along-with-navigation-064aed624b9d',
