@@ -50,7 +50,7 @@ const Navbar = () => {
 
         <Link
                className="hidden sm:flex justify-end items-center"
-               onClick={() => window.open("https://www.linkedin.com/in/syedasadalirizvi/", "_blank")}>
+               onClick={() => window.open("https://www.linkedin.com/in/iosdev24/", "_blank")}>
                <img
                  src={linkedin}
                  alt="linkedin"
