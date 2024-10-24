@@ -46,9 +46,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
       >
-        I am Syed Asad and I am a experienced iOS & Flutter Developer with years of hands-on expertise in
+        I am Syed Asad and I am a experienced iOS Developer with years of hands-on expertise in
         designing, developing, and maintaining mobile applications. Proficient in both native iOS development using Swift/
-        Objective-C and cross-platform development with Flutter. Adept at collaborating with interdisciplinary teams to deliver
+        Objective-C. Adept at collaborating with interdisciplinary teams to deliver
         high-quality software solutions that meet client requirements and exceed expectations. Skilled in UI/UX design
         principles, API integration, performance optimization, and troubleshooting/debugging. Strong communication skills, with
         a proven track record of effectively translating complex technical concepts to non-technical stakeholders. Passionate
