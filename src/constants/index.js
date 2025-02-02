@@ -221,7 +221,7 @@ const experiences = [
     company_name: 'VenoCare',
     icon: venocare,
     iconBg: '#333333',
-    date: 'April 2023 - Present',
+    date: 'April 2021 - Present',
   },
   // {
   //   title: 'Senior iOS Mobile Developer (Freelance)',
@@ -244,13 +244,13 @@ const experiences = [
   //   iconBg: '#333333',
   //   date: 'Feb 2023 - April 2023',
   // },
-  {
-    title: 'Senior iOS Developer',
-    company_name: 'Shisheo PORTAL',
-    icon: shisheo,
-    iconBg: '#333333',
-    date: 'April 2021 - April 2023',
-  },
+  // {
+  //   title: 'Senior iOS Developer',
+  //   company_name: 'Shisheo PORTAL',
+  //   icon: shisheo,
+  //   iconBg: '#333333',
+  //   date: 'April 2021 - April 2023',
+  // },
   {
     title: 'Senior iOS Mobile Developer',
     company_name: 'Taif al Emarat',

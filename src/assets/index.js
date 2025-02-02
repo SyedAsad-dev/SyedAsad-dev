@@ -94,6 +94,7 @@ import etihad from './projects/komikult.png';
 import schoolhack1 from './projects/schoolHack1.jpeg';
 import commit2Sit from './projects/commit2Sit.webp';
 import chargefuze from './projects/chargefuze.webp';
+import bxfootball from './projects/bxfootball.webp';
 import themeets from './projects/themeets.webp';
 import santraSallar from './projects/santraSallar.webp';
 import santrapro from './projects/santrapro.webp';
@@ -194,6 +195,7 @@ export {
   commit2Sit,
   schoolhack1,
   chargefuze,
+  bxfootball,
   themeets,
   santraSallar,
   santrapro,
