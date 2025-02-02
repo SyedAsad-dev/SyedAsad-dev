@@ -56,6 +56,7 @@ import {
   commit2Sit,
   schoolhack1,
   chargefuze,
+  bxfootball,
   themeets,
   santraSallar,
   santrapro,
@@ -290,6 +291,27 @@ const projects = [
     demo: 'https://apps.apple.com/us/app/school-hack/id1667172863',
   },
   {
+    id: 'project-2.1',
+    name: 'BXFootball',
+    description: ``,
+    tags: [
+      // {
+      //   name: 'angular',
+      //   color: 'blue-text-gradient',
+      // },
+      // {
+      //   name: 'nodejs',
+      //   color: 'green-text-gradient',
+      // },
+      // {
+      //   name: 'springboot',
+      //   color: 'pink-text-gradient',
+      // },
+    ],
+    image: themeets,
+    demo: 'https://apps.apple.com/us/app/bxfootball-live-streaming/id6741017241',
+  },
+  {
     id: 'project-2',
     name: 'The Meets',
     description: ``,
@@ -351,27 +373,6 @@ const projects = [
     ],
     image: santraSallar,
     demo: 'https://apps.apple.com/sa/app/santra-sellers/id1533685850?platform=iphone',
-  },
-  {
-    id: 'project-5',
-    name: 'Dr. Clinica',
-    description: ``,
-    tags: [
-      {
-        name: 'angular',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'nodejs',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'springboot',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: drClinic,
-    demo: 'https://apps.apple.com/ae/app/dr-clinica/id6468948448?platform=iphone',
   },
   {
     id: 'project-6',
@@ -456,28 +457,7 @@ const projects = [
     ],
     image: taifalemarat,
     demo: 'https://apps.apple.com/ae/app/taif-al-emarat/id1524622310',
-  },
-  {
-    id: 'project-10',
-    name: 'World Virtual Hospital',
-    description: ``,
-    tags: [
-      {
-        name: 'angular',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'nodejs',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'springboot',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: worldVirtualHospital,
-    demo: 'https://play.google.com/store/apps/details?id=com.wvh.wvh',
-  },
+  }
 
 ];
 
