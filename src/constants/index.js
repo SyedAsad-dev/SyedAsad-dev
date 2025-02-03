@@ -274,18 +274,6 @@ const projects = [
     name: 'School Hack',
     description: ``,
     tags: [
-      // {
-      //   name: 'angular',
-      //   color: 'blue-text-gradient',
-      // },
-      // {
-      //   name: 'nodejs',
-      //   color: 'green-text-gradient',
-      // },
-      // {
-      //   name: 'springboot',
-      //   color: 'pink-text-gradient',
-      // },
     ],
     image: schoolhack1,
     demo: 'https://apps.apple.com/us/app/school-hack/id1667172863',
@@ -295,20 +283,8 @@ const projects = [
     name: 'BXFootball',
     description: ``,
     tags: [
-      // {
-      //   name: 'angular',
-      //   color: 'blue-text-gradient',
-      // },
-      // {
-      //   name: 'nodejs',
-      //   color: 'green-text-gradient',
-      // },
-      // {
-      //   name: 'springboot',
-      //   color: 'pink-text-gradient',
-      // },
     ],
-    image: themeets,
+    image: bxfootball,
     demo: 'https://apps.apple.com/us/app/bxfootball-live-streaming/id6741017241',
   },
   {
@@ -316,18 +292,6 @@ const projects = [
     name: 'The Meets',
     description: ``,
     tags: [
-      // {
-      //   name: 'angular',
-      //   color: 'blue-text-gradient',
-      // },
-      // {
-      //   name: 'nodejs',
-      //   color: 'green-text-gradient',
-      // },
-      // {
-      //   name: 'springboot',
-      //   color: 'pink-text-gradient',
-      // },
     ],
     image: themeets,
     demo: 'https://apps.apple.com/ae/app/the-meets/id1615749988',
